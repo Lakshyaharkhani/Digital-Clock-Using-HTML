@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* default black theme */
+    color: #fff;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.clock-container {
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.clock {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#theme-switcher {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#theme-switcher:hover {
+    background-color: #ccc;
+}
+
+.white-theme {
+    background-color: #fff;
+    color: #000;
+}
+
+.black-theme {
+    background-color: #000;
+    color: #fff;
+}
